@@ -67,7 +67,7 @@ jobs:
           mv ./build/libs/*SNAPSHOT.jar ./run.jar
           ls
 
-      # EC2 로 업로드
+      # EC2 로 업로드!
       # https://github.com/appleboy/scp-action
       # SSH를 통해서 파일등을 복사(업로드)
       # 호스트정보(IP), 접속자명(ubuntu), 키파일(pem) -> 시크릿!!
