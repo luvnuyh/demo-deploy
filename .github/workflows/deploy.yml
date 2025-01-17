@@ -58,7 +58,7 @@ jobs:
         run: mv ./build/libs/*SNAPSHOT.jar ./run.jar
              ls
 
-      # EC2로 업로드
+      # EC2로 업로드!
       # https://github.com/appleboy/scp-action
       # 호스트 정보(IP), 접속자명(ubuntu), 키파일(pem) -> 시크릿!!
       # 업로드 대상(run.jar)
