@@ -30,4 +30,16 @@ jobs:
         uses: actions/setup-java@v4
         with:
            distribution: 'temurin' # See 'Supported distributions' for available options
-           java-version: '21'
+           java-version: '17'
+
+      # application.yml 동적 생성
+      # 소스 코드 내에 위치 (덮어쓰기?, 신규 작성?)
+      # RDS 세팅된 후에 진행, 현재는 스킵
+
+      # build 준비
+      # chmod +x ./gradlew : 퍼밋션 오류 발생시 처리
+      # ./gradlew clean build
+      - name: 단위 테스트 및 빌드
+      # 명령어가 여러개면 | 추가
+        run:
+          ./gradlew clean build
