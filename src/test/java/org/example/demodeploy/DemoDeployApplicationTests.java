@@ -1,4 +1,4 @@
-package com.example.demodeploy;
+package org.example.demodeploy;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
